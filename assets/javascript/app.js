@@ -40,7 +40,7 @@ $(document).ready(function() {
       });
  
   
-    function getDrinkIDArray(response) {
+    function getDrinkIDArray(response) {  
         let drinkIDArray = [];
         for (let i = 0; i < response.drinks.length; i++) {
             drinkIDArray.push(response.drinks[i].idDrink);
